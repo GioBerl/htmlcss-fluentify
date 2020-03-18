@@ -156,14 +156,13 @@ header {
 .cards-row div {
     height: 100%;
     width: 33%;
-    border: 1px solid black;
     float: left;
 }
 
 .cards-row hr {
     opacity: .3;
     width: 32px;
-    margin: auto;
+    margin: 16px auto;
 }
 
 .cards-row div img {
@@ -175,6 +174,7 @@ header {
     font-size: 23px;
     font-weight: 500;
     color: #7fb802;
+    height: 60px;
 }
 
 .cards-row div p {
@@ -184,3 +184,95 @@ header {
     color: #999;
     padding: 0 30px;
 }
+
+hr {
+    border-top: 1px solid rgba(0,0,0,.1);
+    margin: 20px 0;
+}
+/* END CARDS */
+
+
+/* SECTION MOUNTAIN */
+.mountain {
+    height: 490px;
+    padding: 40px 0;
+}
+
+.mountain-column {
+    width: 50%;
+    float: left;
+}
+
+.column-text-wrapper {
+    width: 65%;
+    margin: auto;
+    padding-top: 80px;
+}
+
+.mountain-column img {
+    width: 417px;
+}
+
+.mountain-column h2 {
+    color: #4a4a4a;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+.mountain-column p {
+    font-size: 18px;
+    font-weight: 300;
+    margin: 15px 0;
+    line-height: 25px;
+    color: #999;
+}
+
+.mountain-column a {
+    color: #98c8f8;
+}
+/* END MOUNTAIN */
+
+
+/* SECOND GREY */
+.second-grey {
+    height: 135px;
+    background-color: #f9f9f9;
+}
+
+.second-grey-content {
+    height: 135px;
+}
+
+.first-content {
+    height: 100%;
+    width: 50%;
+    float: left;
+    position: relative;
+}
+
+.second-content {
+    width: 50%;
+    float: left;
+    text-align: right;
+}
+
+.first-content h3 {
+    color: #4a4a4a;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.second-content span {
+    color: #b2b2b2;
+    font-size: 26px;
+    line-height: 135px;
+    margin-right: 50px;
+}
+
+
+
+
+/* END SECOND GREY */
