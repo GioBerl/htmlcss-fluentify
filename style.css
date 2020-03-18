@@ -244,32 +244,48 @@ hr {
     height: 135px;
 }
 
-.first-content {
+.second-grey-content .first-content {
     height: 100%;
     width: 50%;
     float: left;
     position: relative;
 }
 
-.second-content {
+second-grey-content .second-content {
     width: 50%;
     float: left;
     text-align: right;
 }
 
-.first-content h3 {
+.second-grey-content .first-content h3 {
     color: #4a4a4a;
     font-size: 30px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
+    font-weight: 300;
 }
 
-.second-content span {
+.second-grey-content .second-content label[for] {
     color: #b2b2b2;
     font-size: 26px;
     line-height: 135px;
-    margin-right: 50px;
+    margin-right: 80px;
+}
+
+#choose {
+    width: 300px;
+    height: 42px;
+    border: none;
+    border-bottom: 1px solid grey;
+    color: grey;
+    background-color: #f9f9f9;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.second-grey-content .second-content a.btn-primary {
+    padding: 13px;
 }
 
 
